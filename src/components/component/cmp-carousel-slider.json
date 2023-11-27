@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_component_cmp_carousel_sliders",
+  "info": {
+    "displayName": "cmp_carousel_slider",
+    "icon": "command",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "carousel_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component-content-type.cmp-carousel-slider-content-type"
+    }
+  }
+}

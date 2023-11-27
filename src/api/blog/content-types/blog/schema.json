@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "blogs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Development",
+        "Popular",
+        "Web3",
+        "BlockChain"
+      ],
+      "required": true
+    },
+    "summary": {
+      "type": "text"
+    },
+    "isFeatured": {
+      "type": "boolean"
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "featuredImage": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    }
+  }
+}

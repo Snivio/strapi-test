@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_component_cmp_title_image_grids",
+  "info": {
+    "displayName": "cmp_title_image_grid"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "img_grid": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.cmp-image-description-item"
+    }
+  }
+}

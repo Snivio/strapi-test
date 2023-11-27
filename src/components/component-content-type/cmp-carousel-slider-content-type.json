@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_component_content_type_cmp_carousel_slider_content_types",
+  "info": {
+    "displayName": "cmp_carousel_slider_content_type"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "cta": {
+      "type": "string"
+    }
+  }
+}

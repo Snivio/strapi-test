@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_component_cmp_image_description_items",
+  "info": {
+    "displayName": "cmp_image_description_item"
+  },
+  "options": {},
+  "attributes": {
+    "img_url": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
